@@ -39,4 +39,6 @@ for card in soup.find_all('div', class_= 'col-sm-4 col-lg-4 col-md-4'):
     print()
 
     csv_writer.writerow([cardprice,cardanchor,cardpara,cardratings])
+
+# To close the file    
 csv_file.close()
